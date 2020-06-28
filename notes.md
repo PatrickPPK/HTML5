@@ -7,6 +7,8 @@ case sensitive in nature
 <tagname> Content </tagname>
 
 ## tagnames:
+<html> - defines the root of an HTML document
+<body> - defines the document's body
 <h1> - Most important heading
 ...
 <h6> - least important heading
@@ -22,4 +24,19 @@ case sensitive in nature
 <p>...</p>
 </body>
 </html>
+
+## Attributes
+- html elements can have attributes
+- prodives additional information about elements
+- always specified in the start tag
+- usually in name="value" pair
+Examples:
+<a href="https://www.google.com">Google Home Page</a>
+  href - URL of the page
+<image src="image.jpg" alt="Can't load profile picture now, hit refresh" width="160" height="90">
+  src - path to the image
+  alt - alternate text for an image, if the image can't be displayed for some reason
+  width, height - width and height of an image
+  <p style="color:red;">This is a red paragraph.</p>
+  
 
